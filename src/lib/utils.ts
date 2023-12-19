@@ -16,8 +16,8 @@ export function absoluteUrl(path: string) {
 }
 
 export function constructMetadata({
-  title = "Quill - the SaaS for students",
-  description = "Quill is an open-source software to make chatting to your PDF files easy.",
+  title = "yoChat",
+  description = "",
   image = "/thumbnail.png",
   icons = "/favicon.ico",
   noIndex = false
@@ -40,15 +40,9 @@ export function constructMetadata({
         }
       ]
     },
-    twitter: {
-      card: "summary_large_image",
-      title,
-      description,
-      images: [image],
-      creator: "@joshtriedcoding"
-    },
+   
     icons,
-    metadataBase: new URL('https://quill-jet.vercel.app'),
+    metadataBase: new URL('https://yochat-pdf.vercel.app/'),
     themeColor: '#FFF',
     ...(noIndex && {
       robots: {
