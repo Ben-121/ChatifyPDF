@@ -42,7 +42,7 @@ export function constructMetadata({
     },
    
     icons,
-    metadataBase: new URL('https://yochat-pdf.vercel.app/'),
+    metadataBase: new URL('https://quill-jet.vercel.app'),
     themeColor: '#FFF',
     ...(noIndex && {
       robots: {
